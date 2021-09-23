@@ -18,6 +18,6 @@ Or, in the same terminal session you can run the commands seperately:
 npm start
 ```
 
-The script run via npm start will then have access to the AWS credentials.
+The script run via `npm start` will then have access to the AWS credentials.
 
 Optionally you can leave the profle name blank when calling the script and it will prompt you for the profile name.
