@@ -3,7 +3,7 @@ set -e
 profile=$1
 if [ -z "$profile" ];
 then
-  read -p 'Please enter you AWS profile: ' profile
+  read -p 'Please enter your AWS profile: ' profile
 fi
 
 session_name=$(aws --profile $profile configure get role_session_name) || true
